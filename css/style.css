@@ -1,3 +1,16 @@
+:root {
+  /* Primario */
+
+  --Azul_palido: hsl(225, 100%, 94%);
+  --Azul_brillante: hsl(245, 75%, 52%);
+
+  /* Neutral */
+
+  --Azul_muy_palido: hsl(225, 100%, 98%);
+  --Azul_desaturado: hsl(224, 23%, 55%);
+  --Azul_oscuro: hsl(223, 47%, 23%);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -8,8 +21,52 @@ html {
 }
 
 body {
-  font-family: "Indie Flower", cursive;
   font-family: "Red Hat Display", sans-serif;
+  background-color: var(--Azul_palido);
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  margin: 1em auto;
+  width: 90%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--Azul_muy_palido);
+  border-radius: 1em;
+  overflow: hidden;
+  max-width: 400px;
+}
+
+.card-colum-img {
+  background-image: url("../images/illustration-hero.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.card-text {
+  padding: 1em 1em;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 900;
+  color: var(--Azul_oscuro);
+}
+
+.card-info-text {
+  font-weight: 500;
+  color: var(--Azul_desaturado);
 }
 
 .attribution {
