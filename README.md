@@ -16,7 +16,7 @@ El reto fue resuelto con html y css básico
 
 ### Links
 
-- URL del Sitio: [URL](https://your-live-site-url.com)
+- URL del Sitio: [Sitio Web](https://danilovaron.github.io/Order_summary_card/)
 
 ## Proceso
 
@@ -29,5 +29,5 @@ Hice la semántica correspondiente de html, teniendo en cuenta las buenas practi
 
 ## Autor
 
-- Sitio Web - [Sitio Web](https://www.your-site.com)
-- Git Hub- [@yourusername](https://github.com/DaniloVaron)
+- Sitio Web - [Portafolio Personal](https://www.your-site.com)
+- Git Hub - [@Git Hub](https://github.com/DaniloVaron)

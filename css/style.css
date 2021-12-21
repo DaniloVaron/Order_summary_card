@@ -36,7 +36,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 400px;
+  height: 50vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -82,7 +82,7 @@ body {
 }
 
 .card-colum-text {
-  padding: 1.5em 1.5em;
+  padding: 2em 2em;
 }
 
 /* Referencia */
@@ -201,17 +201,22 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 400px;
   }
 
-  .card {
+  .container {
+    margin: 0.5em auto;
+    width: 90%;
+  }
+
+  /* .card {
     background-color: #fff;
     border-radius: 1em;
     overflow: hidden;
     max-width: 400px;
-  }
+  } */
 
   .card-colum-text {
-    padding: 2em 3em;
+    padding: 1.5em 1.5em;
   }
 }
