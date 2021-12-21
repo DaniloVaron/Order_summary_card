@@ -25,47 +25,72 @@
 </head>
 
 <body>
-
+  <!-- Imagen de Fondo -->
+  <div class="bg_image"></div>
+  <!-- Contenedor -->
   <main class="container">
-    <section class="row">
-      <article class="card">
-        <!-- Imagen -->
-        <div class="card-colum-img">
 
-        </div>
+    <!-- Fila -->
+    <section class="row">
+
+      <!-- Carta -->
+      <article class="card">
+
+        <!-- Imagen -->
+        <div class="card-colum-img"></div>
 
         <!-- Contenido -->
         <div class="card-colum-text">
-          <div class="card-text">
+
+          <!-- Referencia -->
+          <div class="card-info">
+
+            <!-- Titulo -->
             <h2 class="card-title">Order Summary</h2>
 
-            <p class="card-info-text">
+            <!-- Información -->
+            <p class="card-text">
               You can now listen to millions of songs, audiobooks, and podcasts on any
-              device anywhere you like!
+              device any where you like!
             </p>
 
+            <!-- Precios -->
             <div class="card-plan">
-              <div class="card-plan-cost">
-                <p><span class="cost-span">Annual Plan</span>$59.99/year</p>
-              </div>
 
-              <div class="card-plan-button">
-                <button class="card-plan-change">Change</button>
-              </div>
+              <!-- Costo -->
+              <article class="card-plan-cost">
+                <img src="./images/icon-music.svg" alt="icon-music">
+                <div>
+                  <h4>Annual Plan</h4>
+                  <p>$59.99/year</p>
+                </div>
+              </article>
+
+              <!-- Devolución - Cambio -->
+              <button class="btn card-plan-change">Change</button>
             </div>
 
-            <button class="card-pay">Proceed to Payment</button>
-            <a href="#" class="card-cancel">Cancel Order</a>
+            <!-- Botones del Final-->
+            <div class="card-buttons">
+
+              <!-- Pago -->
+              <button class="btn card-pay">Proceed to Payment</button>
+
+              <!-- Cancelación -->
+              <a href="#" class="btn card-cancel">Cancel Order</a>
+            </div>
           </div>
         </div>
-      </article clas>
+      </article>
     </section>
+
   </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Danilo Varon</a>.
+    Coded by <a href="https://github.com/DaniloVaron" target="_blank">Danilo Varon</a>.
   </div>
+
 </body>
 
 </html>
